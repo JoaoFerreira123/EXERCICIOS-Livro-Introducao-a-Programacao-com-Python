@@ -3,8 +3,6 @@
 # R para residências, I para indústrias e C para comércios. 
 # Calcule o preço a pagar de acordo com a tabela a seguir. (tabela pg 82)
 
-from winreg import QueryReflectionKey
-
 
 qtde = float(input('Quantos KWh foram consumidos? '))
 print('\nR para RESIDÊNCIAS\nI para INDÚSTRIAS\nC para COMÉRCIOS\n')
