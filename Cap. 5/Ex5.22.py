@@ -6,10 +6,11 @@ print('+ -> soma\n- -> subtracao\n* -> multiplicacao\n/ -> divisao\n0 -> sair')
 while True:
     x = 0
     op = input('Insira uma opção: ')
-    num = int(input('Insira o número: '))
+
     if op == '0':
         break
     elif op in '+-*/':
+        num = int(input('Insira o número: '))
         while x <=10:
             if op ==  '+':
                 print(f'{num} + {x} = {num+x}')
