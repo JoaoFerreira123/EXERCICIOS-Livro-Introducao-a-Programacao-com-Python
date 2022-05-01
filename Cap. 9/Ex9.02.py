@@ -4,7 +4,6 @@
 
 
 name = input('Digite o nome do arquivo: ')
-#só funciona digitando todo o path, mesmo estando na mesma pasta
 ini = int(input('Digite a linha de início: '))
 fim = int(input('Digite a linha de fim: '))
 arquivo = open(name, 'r')
