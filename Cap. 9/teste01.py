@@ -3,3 +3,4 @@ for i in range(1, 101):
     arquivo.write(f'{i}\n')
 
 arquivo.close()
+
