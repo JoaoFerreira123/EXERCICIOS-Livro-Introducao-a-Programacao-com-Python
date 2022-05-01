@@ -58,9 +58,7 @@ Produced by Daniel Lazarus and Jonesey
 
 
 
-MOBY DICK; OR THE WHALE
-
-
+-------------------------------------------------
 
 By Herman Melville
 
@@ -118,7 +116,9 @@ the known nations of the world. He loved to dust his old grammars; it
 
 somehow mildly reminded him of his mortality.
 
--------------------------------------------------"While you take in hand to school others, and to teach them by what
+
+
+"While you take in hand to school others, and to teach them by what
 
 name a whale-fish is to be called in our tongue leaving out, through
 

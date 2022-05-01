@@ -3,6 +3,7 @@
 # Adicione na última linha de cada página o número da página atual e o nome do arquivo original
 
 #ler o arquivo inteiro e caso o N de linhas passe de 60, ele escreve o rodape
+#NÃO FUNCIONA, TENTAR NOVAMENTE DEPOIS!!!!!!
 
 arquivo = 'mobydick.txt'
 linhas = 60
@@ -13,7 +14,7 @@ def escreve(arq, Mlinha):
     linha = 0
     with open(arq,'r') as arq:
         for i in arq.readlines():
-            if linha == 60:
+            if linha == 30:
                 saida.write('-------------------------------------------------')
             else:
                 saida.write(f'{i}\n')
@@ -22,4 +23,3 @@ def escreve(arq, Mlinha):
 escreve(arquivo, linhas)
 saida.close()
 
-????????????????????????????????
