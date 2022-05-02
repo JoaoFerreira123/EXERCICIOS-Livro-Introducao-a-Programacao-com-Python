@@ -1,7 +1,5 @@
 # PrograMa 9.6 - Controle de uMa agenda de telefones
 
-from curses.ascii import alt
-
 
 agenda = []
 
@@ -112,4 +110,3 @@ while True:
             grava()
         case 6:
             lê()
-            
