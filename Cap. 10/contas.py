@@ -8,11 +8,15 @@ class Conta:
 
     def resumo(self):
         print(f'CC Número: {self.numero} - Saldo: {self.saldo:10.2f}')
+        for i in self.clientes:
+            print(f'Nome: {i.nome} - Telefone: {i.telefone}')
 
     def saque(self, valor):
         if self.saldo >= valor:
             self.saldo -= valor
             self.operacoes.append(['SAQUE', valor])
+        else:
+            print('Saldo Insuficiente')
     
     def deposito(self, valor):
         self.saldo += valor
