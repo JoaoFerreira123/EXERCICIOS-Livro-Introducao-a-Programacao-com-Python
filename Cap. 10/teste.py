@@ -1,13 +1,12 @@
-from turtle import back
 from cliente import Cliente
-from contas import Conta
+from contas import Conta, ContaEspecial
 from bancos import Banco
 
 joao = Cliente('João da Silva', '123-456')
 maria = Cliente('Maria da Silva', '789-456')
 
 conta1 = Conta([joao], 236, 50)
-conta2 = Conta([maria, joao], 542)
+conta2 = ContaEspecial([maria, joao], 2, 500, 1000)
 
 banco1 = Banco('Banco1')
 banco1.abreConta(conta1)
